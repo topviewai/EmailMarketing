@@ -1,0 +1,68 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 136,
+  "boxShadow": "none",
+  "defaultText": "{{`\nWe have a user used our function by a url, we need to write a email to tell him/her to try our new function.\nPlease extract the correct information from below information:\nEmail: {{email}}\nNickname: {{nickname}}\nproduct link: {{product_link}}\nProduct name: {{product_name}}\nProduct Description: {{product_description}}\n\nwe need a json format as below:\n{\n\t\"greeting_name\": str, # greeting name for the user, use in Hello {{greeting_name}}, should be one or two words.\n\t\"product_name\": str, # in 2-4 words, for the subject of the email, let the user recognize we are helping him for his products.\n\t\"product_category_name\": str, # in 1-2 words, for search for other \n\t\"brand_name\": str, # the brand name of the product.\n}\nYou must fill every field of the result, if the field's value is not clear, use some common phrase to fill.\noutput the json object only:\n`}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "MULTI_LINE_TEXT",
+  "isDisabled": "{{!SwitchAIExtract.isSwitchedOn}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "aiv5wcyjdv",
+  "label": "Prompt",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 56,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 49,
+  "needsErrorInfo": false,
+  "originalBottomRow": 136,
+  "originalTopRow": 90,
+  "parentColumnSpace": 29.7724609375,
+  "parentId": "d4nph2f8z7",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 90,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "ayf3eh4zyh",
+  "widgetName": "InputExtractPrompt"
+}

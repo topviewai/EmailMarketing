@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 117,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultText": "{{appsmith.store.RichTextEditorEmailTemplate ? appsmith.store.RichTextEditorEmailTemplate : `<!-- [if mso]>\n    <noscript>\n    <xml>\n    <o:OfficeDocumentSettings>\n    <o:PixelsPerInch>96</o:PixelsPerInch>\n    </o:OfficeDocumentSettings>\n    </xml>\n    </noscript>\n    <![endif]--><!-- Outer Container -->\n<table style=\"background-color: #f4f4f4;\" role=\"presentation\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td style=\"padding: 20px 0;\" align=\"center\"><!-- Main Email Card --> <!-- [if mso]>\n                <table role=\"presentation\" width=\"600\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n                <tr>\n                <td>\n                <![endif]-->\n<table class=\"email-container\" style=\"max-width: 600px; background-color: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.05);\" role=\"presentation\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><!-- 1. Header Image -->\n<tbody>\n<tr>\n<td style=\"background-color: #ffffff; padding: 0;\"><a href=\"https://agent.topview.ai/?utm_source=edm&amp;utm_medium=email&amp;utm_content=head_img&amp;utm_compain={{compaign}}&amp;utm_term={{variant}}\" target=\"_blank\" rel=\"noopener\"> <!-- Ensure your image is uploaded and replace the src below --> <img class=\"fluid-img\" style=\"display: block; width: 100%; max-width: 100%; height: auto; border: 0;\" src=\"https://d1735p3aqhycef.cloudfront.net/email-marketing/e1fd29927f5c4ae58575ed86aef1c95f/129-2c8e1503ff3f.jpg\" alt=\"TopView.ai Viral Video Agent\"> </a></td>\n</tr>\n<!-- 2. Content Body -->\n<tr>\n<td class=\"content-padding\" style=\"padding: 40px 40px 30px 40px; color: #333333; line-height: 1.6;\"><!-- H1 Headline -->\n<h1 style=\"margin: 0 0 20px 0; font-size: 24px; font-weight: bold; color: #1a1a1a; letter-spacing: -0.5px;\">Meet Your AI Marketing Video Agent</h1>\n<!-- Greeting -->\n<p style=\"margin: 0 0 20px 0; font-size: 16px;\">Hi {{greeting_name}},</p>\n<!-- Intro -->\n<p style=\"margin: 0 0 20px 0; font-size: 16px;\">You&rsquo;ve already seen how easy it is to import <strong>{{product_name}}</strong> via URL. Now, we&rsquo;re taking it a step further with our new <strong>AI Marketing Video Agent</strong>.</p>\n<!-- Problem/Solution -->\n<p style=\"margin: 0 0 20px 0; font-size: 16px;\">While tools like Sora2 are powerful, they require complex engineering to get right. <strong>TopView has changed the game.</strong> You no longer need to write perfect text prompts to get a great result.</p>\n<!-- How it works steps -->\n<p style=\"margin: 0 0 10px 0; font-size: 16px; font-weight: bold;\">How it works:</p>\n<ol style=\"margin: 0 0 25px 0; padding-left: 20px; font-size: 16px; line-height: 1.6;\">\n<li style=\"margin-bottom: 8px;\">Upload an image of <strong>{{product_name}}</strong>.</li>\n<li style=\"margin-bottom: 8px;\">Choose a reference video from our library of 10M+ viral hits (or upload your own).</li>\n<li style=\"margin-bottom: 0;\">TopView Agent instantly recreates a new, high-quality video for your brand in that exact style.</li>\n</ol>\n<!-- Closing Value Prop -->\n<p style=\"margin: 0 0 20px 0; font-size: 16px;\">It is the fastest, most affordable way to turn <strong>{{brand_name}}</strong> into a viral sensation.</p>\n<!-- Buttons Section (Modified) -->\n<div style=\"text-align: center; margin-top: 35px; margin-bottom: 35px;\"><!-- Primary Button (Solid Theme Blue) --> <!-- Replace #2962FF with your exact brand blue if different --> <a style=\"background-color: #2962ff; color: #ffffff; padding: 14px 25px; text-decoration: none; border-radius: 8px; font-weight: 600; display: inline-block; font-size: 16px; margin: 5px;\" href=\"https://agent.topview.ai/?utm_source=edm&amp;utm_medium=email&amp;utm_content=cta_try&amp;utm_compain={{compaign}}&amp;utm_term={{variant}}\" target=\"_blank\" rel=\"noopener\"> Try TopView Agent &rarr; </a> <!-- Secondary Button (Outline Theme Blue) --> <!-- Please replace # in href with the actual link for the sample session --> <a style=\"background-color: #ffffff; color: #2962ff; border: 1px solid #2962FF; padding: 13px 25px; text-decoration: none; border-radius: 8px; font-weight: 600; display: inline-block; font-size: 16px; margin: 5px;\" href=\"https://agent.topview.ai/agent-share?sessionId=806db0f023f84b71937f77a0b31aa88d&amp;utm_source=edm&amp;utm_medium=email&amp;utm_content=sample_session&amp;utm_compain={{campaign}}&amp;utm_term={{variant}}\" target=\"_blank\" rel=\"noopener\"> See a sample agent session </a></div>\n<p style=\"margin: 0 0 20px 0; font-size: 16px;\">Best,<br><strong>The TopView.ai Team</strong></p>\n</td>\n</tr>\n<!-- 3. Footer Section -->\n<tr>\n<td style=\"background-color: #1a1a1a; padding: 45px 20px;\">\n<table role=\"presentation\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><!-- Social Media Icons -->\n<tbody>\n<tr>\n<td style=\"padding-bottom: 30px;\" align=\"center\"><!-- Discord --> <a class=\"social-icon\" style=\"text-decoration: none; margin: 0 10px;\" href=\"https://discord.com/invite/jFFcCbSbNH\" target=\"_blank\" rel=\"noopener\"> <img style=\"display: inline-block; border: 0; filter: invert(1);\" src=\"https://cdn-icons-png.flaticon.com/512/5968/5968756.png\" alt=\"Discord\" width=\"24\" height=\"24\"> </a> <!-- X (Twitter) --> <a class=\"social-icon\" style=\"text-decoration: none; margin: 0 10px;\" href=\"https://x.com/topviewofficial\" target=\"_blank\" rel=\"noopener\"> <img style=\"display: inline-block; border: 0; filter: invert(1);\" src=\"https://cdn-icons-png.flaticon.com/512/5969/5969020.png\" alt=\"X\" width=\"24\" height=\"24\"> </a> <!-- YouTube --> <a class=\"social-icon\" style=\"text-decoration: none; margin: 0 10px;\" href=\"https://www.youtube.com/@TopviewAIOfficial\" target=\"_blank\" rel=\"noopener\"> <img style=\"display: inline-block; border: 0; filter: invert(1);\" src=\"https://cdn-icons-png.flaticon.com/512/1384/1384060.png\" alt=\"YouTube\" width=\"24\" height=\"24\"> </a> <!-- LinkedIn --> <a class=\"social-icon\" style=\"text-decoration: none; margin: 0 10px;\" href=\"https://www.linkedin.com/company/topviewai\" target=\"_blank\" rel=\"noopener\"> <img style=\"display: inline-block; border: 0; filter: invert(1);\" src=\"https://cdn-icons-png.flaticon.com/512/3536/3536505.png\" alt=\"LinkedIn\" width=\"24\" height=\"24\"> </a></td>\n</tr>\n<!-- Address -->\n<tr>\n<td style=\"font-family: Arial, sans-serif; font-size: 13px; line-height: 1.6; color: #999999;\" align=\"center\">\n<p style=\"margin: 0;\">20 Collyer Quay #20-03<br>Singapore 049319</p>\n</td>\n</tr>\n<!-- Links -->\n<tr>\n<td style=\"padding: 20px 0; font-family: Arial, sans-serif; font-size: 12px; color: #666666;\" align=\"center\"><a style=\"color: #cccccc; text-decoration: none;\" href=\"https://www.topview.ai\">Website</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style=\"color: #cccccc; text-decoration: underline;\" href=\"{{unsubscribe_url}}\">Unsubscribe</a></td>\n</tr>\n<!-- Copyright -->\n<tr>\n<td style=\"font-family: Arial, sans-serif; font-size: 11px; color: #555555;\" align=\"center\">&copy; 2025 TOPVIEW PTE. LTD. (202403218C)</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<!-- [if mso]>\n                </td>\n                </tr>\n                </table>\n                <![endif]--></td>\n</tr>\n</tbody>\n</table>`}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "inputType": "html",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "wsh8qwiga1",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Label",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 51,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 31,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 27.8623046875,
+  "parentId": "h5q7ccqfth",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "topRow": 20,
+  "type": "RICH_TEXT_EDITOR_WIDGET",
+  "version": 1,
+  "widgetId": "y2rusdjztn",
+  "widgetName": "RichTextEditorTemplate"
+}
