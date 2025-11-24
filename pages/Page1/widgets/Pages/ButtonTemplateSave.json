@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 13,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -15,6 +15,9 @@
     },
     {
       "key": "isDisabled"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicPropertyPathList": [
@@ -28,7 +31,7 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{!TableTemplates.selectedRow.id}}",
+  "isDisabled": "{{!appsmith.store.TemplateChanged}}",
   "isLoading": false,
   "isVisible": true,
   "key": "10dbsdubqv",
@@ -49,10 +52,10 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 62,
-  "text": "保存",
-  "topRow": 12,
+  "text": "Update {{TableTemplates.selectedRow.name ? TableTemplates.selectedRow.name: \"\"}}",
+  "topRow": 9,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "1ow2gat9la",
-  "widgetName": "Button14CopyCopy"
+  "widgetName": "ButtonTemplateSave"
 }

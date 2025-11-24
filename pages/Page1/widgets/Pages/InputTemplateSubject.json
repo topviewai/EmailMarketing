@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 20,
+  "bottomRow": 53,
   "boxShadow": "none",
   "defaultText": "{{`Forget prompts—make viral videos for {{brand_name}} instantly`}}",
   "dynamicBindingPathList": [
@@ -21,11 +21,7 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "onTextChanged"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onTextChanged"
@@ -44,7 +40,7 @@
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 16,
+  "leftColumn": 0,
   "maxChars": "",
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
@@ -54,18 +50,18 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onTextChanged": "{{{}}}",
+  "onTextChanged": "{{Template.templateChanged();}}",
   "parentColumnSpace": 29.7724609375,
   "parentId": "h5q7ccqfth",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 44,
   "shouldAllowAutofill": false,
   "showStepArrows": false,
   "tooltip": "Value must be at least 10 chars",
-  "topRow": 16,
+  "topRow": 46,
   "type": "INPUT_WIDGET_V2",
   "validation": "{{InputTemplateSubject.text.length > 10}}",
   "version": 2,

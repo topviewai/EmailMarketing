@@ -1,0 +1,5 @@
+{
+	name: {{InputTemplateSaveAsName.text}},
+	subject: {{InputTemplateSubject.text}},
+	content: {{RichTextEditorTemplate.text}}
+}

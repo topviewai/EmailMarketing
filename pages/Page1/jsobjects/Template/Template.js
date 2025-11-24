@@ -190,12 +190,37 @@ export default {
 		});
 	},
 	testTemplate() {
-		const data = SelectTemplateTestList.selectedOptionValue;
-		if (!data) {
+		const selected = SelectTemplateTestEmail.selectedOptionValue;
+		if (!selected) {
 			return;
 		}
-		const subject = this.fillTemplate(InputTemplateSubject.text, data);
-		const email_content = this.fillTemplate(RichTextEditorTemplate.text, data);
+
+		let selected_list_profile = null;
+		for (const list_profile of lists_sample.data) {
+
+			if (list_profile.list_profile_id == selected) {
+				selected_list_profile = list_profile;
+			}
+		}
+
+		if(!selected_list_profile) {
+			console.log("not found " + selected);
+			return;
+		}
+
+		let kv = {
+			...selected_list_profile,
+			"campaign": "test_campaign",
+			"variant": "test_variant",
+			"unsubscribe_url": "https://www.topview.ai"
+		}
+
+
+		const subject = this.fillTemplate(InputTemplateSubject.text, kv);
+		const email_content = this.fillTemplate(RichTextEditorTemplate.text, kv);
+
+		console.log(subject);
+		console.log(email_content);
 
 		InputTemplateTestSubject.setValue(subject);
 		storeValue("RichTextEditorTemplateResult", email_content);
@@ -246,5 +271,25 @@ export default {
 				showAlert('上传失败，请检查网络或控制台', 'error');
 			}
 		}		
+	},
+	async createTemplate() {
+		const resp = await templates_create.run();
+		await templates.run();
+	},
+	async deleteTemplateConfirmed() {
+		const resp = await templates_delete.run();
+		closeModal(ModalDeleteTemplate.name);
+		await templates.run();
+	},
+	async loadTemplate() {
+		const selectedTemplate = await templates_load.run();
+
+		InputTemplateName.setValue(selectedTemplate.name);
+		InputTemplateSubject.setValue(selectedTemplate.subject);
+		storeValue("RichTextEditorTemplate", selectedTemplate.content);
+		storeValue("TemplateChanged", false);
+	},
+	templateChanged() {
+		storeValue("TemplateChanged", true);
 	}
 }

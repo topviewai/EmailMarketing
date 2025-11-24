@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 86,
+  "bottomRow": 88,
   "boxShadow": "none",
-  "defaultText": "{{`select user_id\n, max_by(email, length(product_images)) email \n, max_by(nickname, length(product_images)) nickname \n, max_by(country, length(product_images)) country \n, max_by(subs_type, length(product_images))\n, max_by(region, length(product_images)) region\n, max_by(city, length(product_images)) city   \n, max_by(product_link, length(product_images)) product_link   \n, max_by(product_images, length(product_images)) product_images   \n, max_by(product_description, length(product_images)) product_description   \n, max_by(product_name, length(product_images)) product_name   \n, max_by(gmt_create,length(product_images)) gmt_create\nfrom marketing.link_scraper_user\ngroup by user_id`}}",
+  "defaultText": "{{`select user_id\n, max_by(email, gmt_create) email \n, max_by(nickname, gmt_create) name \n, max_by(country, gmt_create) country \n, max_by(subs_type, gmt_create) subs_type\n, max_by(region, gmt_create) region\n, max_by(city, gmt_create) city   \n, max_by(product_link, gmt_create) product_link   \n, max_by(product_description, gmt_create) product_description   \n, max_by(product_name, gmt_create) product_name   \n, max(gmt_create) gmt_create\nfrom marketing.link_scraper_user\nwhere length(product_images) >= 20\ngroup by user_id limit 100`}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -41,7 +41,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "originalBottomRow": 86,
+  "originalBottomRow": 88,
   "originalTopRow": 53,
   "parentColumnSpace": 30.25,
   "parentId": "d4nph2f8z7",

@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 144,
+  "bottomRow": 178,
   "boxShadow": "none",
   "defaultText": "{{appsmith.store.upload_image ? appsmith.store.upload_image : 'https://assets.appsmith.com/widgets/default.png'}}",
   "dynamicBindingPathList": [
@@ -49,7 +49,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 60,
   "showStepArrows": false,
-  "topRow": 137,
+  "topRow": 171,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "lv4r1djkyd",

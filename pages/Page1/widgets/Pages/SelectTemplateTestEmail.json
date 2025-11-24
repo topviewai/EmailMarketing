@@ -2,9 +2,9 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 155,
+  "bottomRow": 192,
   "boxShadow": "none",
-  "defaultOptionValue": "GREEN",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -31,7 +31,7 @@
   "key": "5shrw5pvtp",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Label",
+  "labelText": "Select a profile to test",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 15,
@@ -53,8 +53,8 @@
   "responsiveBehavior": "fill",
   "rightColumn": 35,
   "serverSideFiltering": false,
-  "sourceData": "{{lists_sample.data.map(\n\titem => (\n\t\t{\n\t\t\tname: item.email,\n\t\t\tcode: item\n\t\t}\n\t)\n)}}",
-  "topRow": 148,
+  "sourceData": "{{lists_sample.data.map(\n\titem => (\n\t\t{\n\t\t\tname: item.email,\n\t\t\tcode: item.list_profile_id\n\t\t}\n\t)\n)}}",
+  "topRow": 185,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "yp02860pui",
