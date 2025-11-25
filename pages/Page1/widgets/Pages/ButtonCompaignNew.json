@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 59,
+  "bottomRow": 42,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -14,19 +14,24 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "b0t183fmpg",
-  "leftColumn": 51,
+  "leftColumn": 13,
   "minWidth": 120,
   "mobileBottomRow": 14,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 17,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
+  "onClick": "{{showModal(ModalNewCampaign.name);}}",
   "parentColumnSpace": 30.25,
   "parentId": "40zxp835et",
   "parentRowSpace": 10,
@@ -35,9 +40,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
+  "rightColumn": 25,
   "text": "New Compaign",
-  "topRow": 55,
+  "topRow": 38,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "gzmi24fr56",

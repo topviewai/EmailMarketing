@@ -14,19 +14,24 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "vnr7zwakj7",
-  "leftColumn": 14,
+  "leftColumn": 26,
   "minWidth": 120,
   "mobileBottomRow": 107,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 17,
   "mobileTopRow": 103,
   "needsErrorInfo": false,
+  "onClick": "{{showModal(ModalCampaignSchedule.name);}}",
   "parentColumnSpace": 29.7724609375,
   "parentId": "40zxp835et",
   "parentRowSpace": 10,
@@ -35,7 +40,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 23,
+  "rightColumn": 37,
   "text": "Schedule Email",
   "topRow": 38,
   "type": "BUTTON_WIDGET",

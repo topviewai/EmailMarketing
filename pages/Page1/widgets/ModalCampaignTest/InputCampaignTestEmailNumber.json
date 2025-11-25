@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 11,
+  "boxShadow": "none",
+  "defaultText": "10",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "NUMBER",
+  "isDisabled": "",
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "aiv5wcyjdv",
+  "label": "Email Number",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "maxNum": "100",
+  "minDynamicHeight": 4,
+  "minNum": "1",
+  "minWidth": 450,
+  "mobileBottomRow": 108,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 101,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 29.7724609375,
+  "parentId": "069g0soutg",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 38,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 4,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "elkwliavtr",
+  "widgetName": "InputCampaignTestEmailNumber"
+}

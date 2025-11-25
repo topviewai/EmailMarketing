@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 53,
+  "bottomRow": 52,
   "boxShadow": "none",
   "defaultText": "{{`Forget prompts—make viral videos for {{brand_name}} instantly`}}",
   "dynamicBindingPathList": [
@@ -61,7 +61,7 @@
   "shouldAllowAutofill": false,
   "showStepArrows": false,
   "tooltip": "Value must be at least 10 chars",
-  "topRow": 46,
+  "topRow": 45,
   "type": "INPUT_WIDGET_V2",
   "validation": "{{InputTemplateSubject.text.length > 10}}",
   "version": 2,

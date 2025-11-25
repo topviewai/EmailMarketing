@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 27,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "5shrw5pvtp",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Exclude users have been sent email recently",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 67,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 60,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 29.7724609375,
+  "parentId": "zjte2208w3",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 56,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"3天\",\n    \"code\": \"3\"\n  },\n  {\n    \"name\": \"1周\",\n    \"code\": \"7\"\n  },\n  {\n    \"name\": \"2周\",\n    \"code\": \"14\"\n  },\n  {\n    \"name\": \"1个月\",\n    \"code\": \"30\"\n  },\n  {\n    \"name\": \"3个月\",\n    \"code\": \"91\"\n  },\n  {\n    \"name\": \"半年\",\n    \"code\": \"182\"\n  }\n]",
+  "topRow": 20,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "qmlr5caygx",
+  "widgetName": "SelectCampaignExcludeDays"
+}

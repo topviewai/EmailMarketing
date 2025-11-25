@@ -1,0 +1,7 @@
+{
+	email_template_id: {{SelectNewVariantTemplateCopy.selectedOptionValue}},
+	variant_name: {{InputABVariantNameCopy.text}},
+	send_time: {{DatePickerNewVariantTimeCopy.formattedDate}},
+	use_user_timezone: {{CheckboxNewVariantTZCopy.isChecked}},
+	user_percentage: {{NumberSliderABPercentCopy.value}}
+}

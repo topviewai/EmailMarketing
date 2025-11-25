@@ -1,0 +1,68 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "bottomRow": 20,
+  "defaultValue": "{{TableCampaignABVariant.selectedRow.user_percentage}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "max"
+    },
+    {
+      "key": "defaultValue"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "mbxrhroq9e",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Percentage",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 8,
+  "leftColumn": 1,
+  "marks": [
+    {
+      "label": "25%",
+      "value": 25
+    },
+    {
+      "label": "50%",
+      "value": 50
+    },
+    {
+      "label": "75%",
+      "value": 75
+    }
+  ],
+  "max": "{{Campaign.get_left_percent(TableCampaignABVariant.selectedRow.variant_id)}}",
+  "min": 0,
+  "mobileBottomRow": 20,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 42,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "originalBottomRow": 18,
+  "originalTopRow": 10,
+  "parentColumnSpace": 6.9375,
+  "parentId": "vo2v1bkdx4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldScroll": false,
+  "shouldTruncate": false,
+  "showMarksLabel": true,
+  "sliderSize": "m",
+  "step": 1,
+  "tooltipAlwaysOn": false,
+  "topRow": 12,
+  "type": "NUMBER_SLIDER_WIDGET",
+  "version": 1,
+  "widgetId": "tgp0tdwa8k",
+  "widgetName": "NumberSliderABPercentCopy"
+}

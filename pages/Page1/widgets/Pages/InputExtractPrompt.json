@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 142,
+  "bottomRow": 138,
   "boxShadow": "none",
   "defaultText": "{{`\nWe have a user used our function by a url, we need to write a email to tell him/her to try our new function.\nPlease extract the correct information from below information:\nEmail: {{email}}\nNickname: {{nickname}}\nproduct link: {{product_link}}\nProduct name: {{product_name}}\nProduct Description: {{product_description}}\n\nwe need a json format as below:\n{\n\t\"greeting_name\": str, # greeting name for the user, use in Hello {{greeting_name}}, should be one or two words.\n\t\"product_name\": str, # in 2-4 words, for the subject of the email, let the user recognize we are helping him for his products.\n\t\"product_category_name\": str, # in 1-2 words, for search for other \n\t\"brand_name\": str, # the brand name of the product.\n}\nYou must fill every field of the result, if the field's value is not clear, use some common phrase to fill.\noutput the json object only:\n`}}",
   "dynamicBindingPathList": [
@@ -49,7 +49,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 49,
   "needsErrorInfo": false,
-  "originalBottomRow": 142,
+  "originalBottomRow": 138,
   "originalTopRow": 92,
   "parentColumnSpace": 29.7724609375,
   "parentId": "d4nph2f8z7",

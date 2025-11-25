@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 53,
+  "bottomRow": 46,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -41,7 +41,7 @@
   "text": "Create New List",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 49,
+  "topRow": 42,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

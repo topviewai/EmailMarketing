@@ -284,7 +284,6 @@ export default {
 	async loadTemplate() {
 		const selectedTemplate = await templates_load.run();
 
-		InputTemplateName.setValue(selectedTemplate.name);
 		InputTemplateSubject.setValue(selectedTemplate.subject);
 		storeValue("RichTextEditorTemplate", selectedTemplate.content);
 		storeValue("TemplateChanged", false);

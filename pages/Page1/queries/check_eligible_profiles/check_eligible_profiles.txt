@@ -1,0 +1,4 @@
+{
+	list_id: {{SelectNewCompaignUserList.selectedOptionValue}},
+	exclude_recent_days: {{SelectCampaignExcludeDays.selectedOptionValue}}
+}

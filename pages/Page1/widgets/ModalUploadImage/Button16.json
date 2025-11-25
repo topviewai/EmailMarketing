@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "4rwcmrubs7",
+  "leftColumn": 26,
+  "minWidth": 120,
+  "mobileBottomRow": 121,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 27,
+  "mobileTopRow": 117,
+  "needsErrorInfo": false,
+  "onClick": "{{Template.uploadImage();}}",
+  "parentColumnSpace": 29.7724609375,
+  "parentId": "yuf67yis3z",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 33,
+  "text": "Upload",
+  "topRow": 6,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "6lysw89pl1",
+  "widgetName": "Button16"
+}

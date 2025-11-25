@@ -1,0 +1,4 @@
+{
+	count: {{InputCampaignTestEmailNumber.text}},
+  recipient_email: {{InputCampaignTestRecipient.text}}
+}

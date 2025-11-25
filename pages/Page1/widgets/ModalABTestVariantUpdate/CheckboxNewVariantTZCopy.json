@@ -1,0 +1,55 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 39,
+  "defaultCheckedState": "{{TableCampaignABVariant.selectedRow.use_user_timezone}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "wf52vb0jow",
+  "label": "Send in user local timezone.",
+  "labelPosition": "Right",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 30,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 13,
+  "mobileTopRow": 26,
+  "needsErrorInfo": false,
+  "originalBottomRow": 30,
+  "originalTopRow": 26,
+  "parentColumnSpace": 6.9375,
+  "parentId": "vo2v1bkdx4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 37,
+  "topRow": 35,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "do2ymp50wo",
+  "widgetName": "CheckboxNewVariantTZCopy"
+}

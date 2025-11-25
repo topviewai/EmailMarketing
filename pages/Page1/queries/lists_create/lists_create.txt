@@ -1,5 +1,5 @@
 {
-	name: {{InputListName.text}},
+	name: {{InputUserListNewName.text}},
 	sql_query: {{InputSQL.text}},
 	extract_prompt: {{InputExtractPrompt.text}},
 	model: "models/gemini-flash-latest"

@@ -1,0 +1,8 @@
+{
+    campaign_id: {{TableCampaigns.selectedRow.campaign_id}},
+    email_template_id: {{SelectNewVariantTemplate.selectedOptionValue}},
+    variant_name: {{InputABVariantName.text}},
+    send_time: {{DatePickerNewVariantTime.formattedDate}},
+    use_user_timezone: {{CheckboxNewVariantLocalTZ.isChecked}},
+    user_percentage: {{NumberSliderABPercent.value}}
+}

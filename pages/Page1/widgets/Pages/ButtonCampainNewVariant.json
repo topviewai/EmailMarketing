@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 73,
+  "bottomRow": 55,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -12,21 +12,34 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
-  "isDisabled": false,
+  "isDisabled": "{{!TableCampaigns.selectedRow.campaign_id}}",
   "isLoading": false,
   "isVisible": true,
   "key": "b0t183fmpg",
-  "leftColumn": 1,
+  "leftColumn": 0,
   "minWidth": 120,
   "mobileBottomRow": 14,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 17,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
+  "onClick": "{{showModal(ModalABTestVariant.name);}}",
   "parentColumnSpace": 30.25,
   "parentId": "40zxp835et",
   "parentRowSpace": 10,
@@ -35,9 +48,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 13,
-  "text": "Select Email Template",
-  "topRow": 69,
+  "rightColumn": 12,
+  "text": "New AB Test Variant for Campaign",
+  "topRow": 51,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "aw7j8o93j5",
