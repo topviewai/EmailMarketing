@@ -1,0 +1,4 @@
+{
+	name: {{TableTemplates.updatedRow.name}},
+	subject: {{TableTemplates.updatedRow.subject}}
+}

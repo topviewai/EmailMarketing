@@ -1,0 +1,4 @@
+{
+	subject: {{InputTemplateSubject.text}},
+	content: {{RichTextEditorTemplate.text}}
+}

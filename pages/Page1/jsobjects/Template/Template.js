@@ -292,6 +292,15 @@ export default {
 		storeValue("RichTextEditorTemplate", selectedTemplate.content);
 		storeValue("TemplateChanged", false);
 	},
+	async tableSaveTemplate() {
+
+		await templates_update_table.run();
+		await templates.run();
+	},
+	async saveTemplate() {
+		await templates_update_button.run();
+		await templates.run();
+	},
 	templateChanged() {
 		storeValue("TemplateChanged", true);
 	}

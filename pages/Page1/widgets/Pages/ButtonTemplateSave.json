@@ -42,7 +42,7 @@
   "mobileRightColumn": 52,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{OnCreateList.loadAIEmailTemplate();}}",
+  "onClick": "{{Template.saveTemplate();}}",
   "parentColumnSpace": 29.7724609375,
   "parentId": "h5q7ccqfth",
   "parentRowSpace": 10,

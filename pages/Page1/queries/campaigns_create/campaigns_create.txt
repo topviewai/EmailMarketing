@@ -1,5 +1,7 @@
 {
-    name: {{InputNewCompaignName.text}},
-    list_id: {{SelectNewCompaignUserList.selectedOptionValue}},
-    exclude_recent_days: {{SelectCampaignExcludeDays.selectedOptionValue}}	
+	name: {{InputNewCompaignName.text}},
+	list_id: {{SelectNewCompaignUserList.selectedOptionValue}},
+	exclude_recent_days: {{SelectCampaignExcludeDays.selectedOptionValue}},
+	replay_to: {{InputReplyTo.text}},
+	sender_name: {{InputNewCampaignSenderName.text}}
 }

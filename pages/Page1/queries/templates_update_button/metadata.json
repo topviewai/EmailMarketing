@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "691d8449549b186264d7895e_92bfbc8a-de38-4ada-a940-222a293e625f",
-  "id": "Page1_campaigns_create",
+  "gitSyncId": "691d8449549b186264d7895e_a470084d-c236-4861-b2d7-e6bd26c38735",
+  "id": "Page1_templates_update_button",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\tname: {{InputNewCompaignName.text}},\n\tlist_id: {{SelectNewCompaignUserList.selectedOptionValue}},\n\texclude_recent_days: {{SelectCampaignExcludeDays.selectedOptionValue}},\n\treplay_to: {{InputReplyTo.text}},\n\tsender_name: {{InputNewCampaignSenderName.text}}\n}",
+      "body": "{\n\tsubject: {{InputTemplateSubject.text}},\n\tcontent: {{RichTextEditorTemplate.text}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -23,10 +23,10 @@
           "value": "{{appsmith.user.email}}"
         }
       ],
-      "httpMethod": "POST",
+      "httpMethod": "PUT",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/api/campaigns/",
+      "path": "/api/templates/{{TableTemplates.selectedRow.template_id}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -48,9 +48,12 @@
       },
       {
         "key": "headers[0].value"
+      },
+      {
+        "key": "path"
       }
     ],
-    "name": "campaigns_create",
+    "name": "templates_update_button",
     "pageId": "Page1",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
