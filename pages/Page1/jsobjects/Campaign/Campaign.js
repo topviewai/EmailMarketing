@@ -66,6 +66,11 @@ export default {
 			showAlert('Delete AB Test Variant创建出错，请稍后重试。', 'error');
 		}				
 	},
+	async scheduleEmail() {
+		await campaigns_schedule.run();
+		closeModal(ModalCampaignSchedule.name);
+
+	},	
 	async test_email() {
 		try {
 			await generate_test_emails.run();

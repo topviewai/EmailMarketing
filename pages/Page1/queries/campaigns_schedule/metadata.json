@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "691d8449549b186264d7895e_3224c904-9721-4193-a1ca-a782bc067910",
-  "id": "Page1_generate_emails",
+  "gitSyncId": "691d8449549b186264d7895e_1b48bf57-ec74-4db2-8362-48f5578a1758",
+  "id": "Page1_campaigns_schedule",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -44,16 +44,16 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
+        "key": "headers[0].value"
       },
       {
         "key": "body"
       },
       {
-        "key": "headers[0].value"
+        "key": "path"
       }
     ],
-    "name": "generate_emails",
+    "name": "campaigns_schedule",
     "pageId": "Page1",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

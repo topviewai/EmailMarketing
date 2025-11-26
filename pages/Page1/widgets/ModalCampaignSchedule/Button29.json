@@ -15,7 +15,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -28,6 +32,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
+  "onClick": "{{Campaign.scheduleEmail();}}",
   "originalBottomRow": 30,
   "originalTopRow": 26,
   "parentId": "4hri33124k",
