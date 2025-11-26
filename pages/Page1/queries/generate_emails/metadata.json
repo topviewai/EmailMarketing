@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "691d8449549b186264d7895e_843c0c98-91ea-4473-8fb9-105044a148dd",
-  "id": "Page1_generate_test_emails",
+  "gitSyncId": "691d8449549b186264d7895e_3224c904-9721-4193-a1ca-a782bc067910",
+  "id": "Page1_generate_emails",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\tcount: {{InputCampaignTestEmailNumber.text}},\n  recipient_email: {{InputCampaignTestRecipient.text}}\n}",
+      "body": "{\n\tcount: {{CheckboxTemplateAll.isChecked ? -1 : InputScheduleEmailNumber.text}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -21,14 +21,14 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/api/campaigns/{{TableCampaigns.selectedRow.campaign_id}}/generate-test-emails",
+      "path": "/api/campaigns/{{TableCampaigns.selectedRow.campaign_id}}/generate-emails",
       "pluginSpecifiedTemplates": [
         {
           "value": true
         }
       ],
       "queryParameters": [],
-      "timeoutInMillisecond": 60000
+      "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
     "datasource": {
@@ -45,7 +45,7 @@
         "key": "body"
       }
     ],
-    "name": "generate_test_emails",
+    "name": "generate_emails",
     "pageId": "Page1",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

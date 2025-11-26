@@ -11,7 +11,8 @@ export default {
 
 			storeValue("import_list_id", resp.list_id);
 			const import_tasks = await imports_create_task.run();
-			lists.run();
+			await lists.run();
+			closeModal(ModalNewUserList.name);
 		} catch(e) {
 			console.error("generateResult", e)
 			showAlert('生成出错，请稍后重试。', 'error');

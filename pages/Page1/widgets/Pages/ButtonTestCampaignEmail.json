@@ -31,7 +31,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 103,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(ModalCampaignSchedule.name);}}",
+  "onClick": "{{showModal(ModalCampaignTestEmail.name);}}",
   "parentColumnSpace": 29.7724609375,
   "parentId": "40zxp835et",
   "parentRowSpace": 10,

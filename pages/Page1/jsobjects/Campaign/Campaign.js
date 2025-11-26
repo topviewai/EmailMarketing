@@ -4,6 +4,8 @@ export default {
 			const resp = await campaigns_create.run();
 			closeModal(ModalNewCampaign.name);
 
+			await campaigns.run();
+
 		} catch(e) {
 			console.error("campaigns_create", e)
 			showAlert('Campaign 创建出错，请稍后重试。', 'error');
@@ -63,6 +65,15 @@ export default {
 			console.error("campaign_variants", e)
 			showAlert('Delete AB Test Variant创建出错，请稍后重试。', 'error');
 		}				
+	},
+	async test_email() {
+		try {
+			await generate_test_emails.run();
+			closeModal(ModalCampaignTestEmail.name);
+		} catch(e) {
+			console.error("test_email", e)
+			showAlert('出错，请稍后重试。', 'error');
+		}		
 	}
 
 

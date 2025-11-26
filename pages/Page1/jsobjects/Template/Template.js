@@ -276,6 +276,10 @@ export default {
 		const resp = await templates_create.run();
 		await templates.run();
 	},
+	async cloneTemplate() {
+		const selectedTemplate = await templates_load.run();
+		await templates.run();
+	},	
 	async deleteTemplateConfirmed() {
 		const resp = await templates_delete.run();
 		closeModal(ModalDeleteTemplate.name);

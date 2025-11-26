@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 12,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "10000",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -25,10 +25,10 @@
   ],
   "dynamicTriggerPathList": [],
   "iconAlign": "left",
-  "inputType": "TEXT",
+  "inputType": "NUMBER",
   "isDisabled": "{{CheckboxTemplateAll.isChecked}}",
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
   "key": "aiv5wcyjdv",
   "label": "Email Number",
@@ -39,6 +39,7 @@
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
+  "maxNum": "",
   "minDynamicHeight": 4,
   "minWidth": 450,
   "mobileBottomRow": 108,
@@ -53,6 +54,7 @@
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 38,
+  "shouldAllowAutofill": false,
   "showStepArrows": false,
   "topRow": 4,
   "type": "INPUT_WIDGET_V2",

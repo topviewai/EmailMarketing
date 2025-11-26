@@ -15,9 +15,6 @@
     },
     {
       "key": "isDisabled"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicPropertyPathList": [
@@ -52,7 +49,7 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 62,
-  "text": "Load {{TableTemplates.selectedRow.name ? TableTemplates.selectedRow.name: \"\"}}",
+  "text": "Load",
   "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,

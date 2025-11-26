@@ -41,13 +41,13 @@
     "product_description",
     "product_name",
     "gmt_create",
-    "greeting_name",
-    "brand_name",
     "subs_type",
     "name",
-    "product_category_name"
+    "greeting_name",
+    "product_category_name",
+    "brand_name"
   ],
-  "columnUpdatedAt": 1763987151152,
+  "columnUpdatedAt": 1764059561037,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -98,12 +98,6 @@
       "key": "primaryColumns.gmt_create.computedValue"
     },
     {
-      "key": "primaryColumns.greeting_name.computedValue"
-    },
-    {
-      "key": "primaryColumns.brand_name.computedValue"
-    },
-    {
       "key": "primaryColumns.subs_type.computedValue"
     },
     {
@@ -113,7 +107,13 @@
       "key": "primaryColumns.name.computedValue"
     },
     {
+      "key": "primaryColumns.greeting_name.computedValue"
+    },
+    {
       "key": "primaryColumns.product_category_name.computedValue"
+    },
+    {
+      "key": "primaryColumns.brand_name.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -163,7 +163,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "brand_name",
-      "index": 14,
+      "index": 13,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -333,7 +333,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "greeting_name",
-      "index": 12,
+      "index": 11,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
