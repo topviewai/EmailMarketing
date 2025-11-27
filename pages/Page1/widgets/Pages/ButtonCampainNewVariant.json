@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 56,
+  "bottomRow": 55,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -50,7 +50,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 12,
   "text": "New AB Test Variant for Campaign",
-  "topRow": 52,
+  "topRow": 51,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "aw7j8o93j5",

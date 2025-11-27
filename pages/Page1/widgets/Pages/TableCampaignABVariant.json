@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 84,
+  "bottomRow": 83,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -32,9 +32,9 @@
     }
   },
   "columnOrder": [
+    "campaign_id",
     "campaign_name",
     "template_name",
-    "campaign_id",
     "email_template_id",
     "variant_name",
     "send_time",
@@ -52,7 +52,7 @@
     "clicked_count",
     "clicked_rate"
   ],
-  "columnUpdatedAt": 1764137642957,
+  "columnUpdatedAt": 1764235378956,
   "columnWidthMap": {
     "email_template_id": 262,
     "template_name": 193
@@ -187,7 +187,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
+      "isVisible": true,
       "label": "campaign_id",
       "notation": "standard",
       "originalId": "campaign_id",
@@ -787,7 +787,7 @@
   "searchKey": "",
   "tableData": "{{campaign_variants.data}}",
   "textSize": "0.875rem",
-  "topRow": 56,
+  "topRow": 55,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
