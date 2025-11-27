@@ -41,6 +41,7 @@
   "parentColumnSpace": 6.6875,
   "parentId": "zjte2208w3",
   "parentRowSpace": 10,
+  "regex": "^\\w+@[A-Za-z0-9]+\\.[A-Za-z0-9\\.]+$",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
