@@ -25,6 +25,15 @@ export default {
 			showAlert('Campaign AB Test Variant创建出错，请稍后重试。', 'error');
 		}		
 	},
+	async save_campaign() {
+		try {
+			await campaigns_update.run();
+			await campaigns.run();
+		} catch(e) {
+			console.error("save_campaign", e)
+			showAlert('save_campaign创建出错，请稍后重试。', 'error');
+		}		
+	},
 	get_left_percent(current) {
 		let total = 100;
 		for(let variant of campaign_variants.data) {

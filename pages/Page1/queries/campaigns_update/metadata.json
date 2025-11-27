@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "691d8449549b186264d7895e_92bfbc8a-de38-4ada-a940-222a293e625f",
-  "id": "Page1_campaigns_create",
+  "gitSyncId": "691d8449549b186264d7895e_b47aa080-6201-4ba3-bc48-2768a0d0c517",
+  "id": "Page1_campaigns_update",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\tname: {{InputNewCompaignName.text}},\n\tlist_id: {{SelectNewCompaignUserList.selectedOptionValue}},\n\texclude_recent_days: {{SelectCampaignExcludeDays.selectedOptionValue}},\n\treply_to: {{InputReplyTo.text}},\n\tsender_name: {{InputNewCampaignSenderName.text}}\n}",
+      "body": "{\n\treply_to: {{TableCampaigns.triggeredRow.reply_to}},\n\tsender_name: {{TableCampaigns.triggeredRow.sender_name}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -23,10 +23,10 @@
           "value": "{{appsmith.user.email}}"
         }
       ],
-      "httpMethod": "POST",
+      "httpMethod": "PUT",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/api/campaigns/",
+      "path": "/api/campaigns/{{TableCampaigns.triggeredRow.campaign_id}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -48,9 +48,12 @@
       },
       {
         "key": "headers[0].value"
+      },
+      {
+        "key": "path"
       }
     ],
-    "name": "campaigns_create",
+    "name": "campaigns_update",
     "pageId": "Page1",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

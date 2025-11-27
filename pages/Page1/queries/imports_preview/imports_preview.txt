@@ -1,5 +1,5 @@
 {
-	sql_query: {{InputSQL.text}},
-	extract_prompt: {{InputExtractPrompt.text}},
+	sql_query: {{appsmith.store.TestSQL}},
+	extract_prompt: {{appsmith.store.InputExtractPrompt}},
 	model: "models/gemini-flash-latest"
 }

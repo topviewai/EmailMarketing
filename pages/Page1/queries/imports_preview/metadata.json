@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\tsql_query: {{InputSQL.text}},\n\textract_prompt: {{InputExtractPrompt.text}},\n\tmodel: \"models/gemini-flash-latest\"\n}",
+      "body": "{\n\tsql_query: {{appsmith.store.TestSQL}},\n\textract_prompt: {{appsmith.store.InputExtractPrompt}},\n\tmodel: \"models/gemini-flash-latest\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

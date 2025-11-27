@@ -1,0 +1,4 @@
+{
+	reply_to: {{TableCampaigns.triggeredRow.reply_to}},
+	sender_name: {{TableCampaigns.triggeredRow.sender_name}}
+}

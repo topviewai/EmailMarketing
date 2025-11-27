@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 56,
+  "bottomRow": 42,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -12,14 +12,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "isDisabled"
-    }
-  ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "isDisabled"
     }
   ],
   "dynamicTriggerPathList": [
@@ -28,19 +20,19 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{!TableCampaigns.selectedRow.campaign_id}}",
+  "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "b0t183fmpg",
-  "leftColumn": 0,
+  "key": "vv0z4l9vt1",
+  "leftColumn": 52,
   "minWidth": 120,
-  "mobileBottomRow": 14,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 17,
-  "mobileTopRow": 10,
+  "mobileBottomRow": 42,
+  "mobileLeftColumn": 49,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 38,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(ModalABTestVariant.name);}}",
-  "parentColumnSpace": 30.25,
+  "onClick": "{{campaigns.run()}}",
+  "parentColumnSpace": 29.7724609375,
   "parentId": "40zxp835et",
   "parentRowSpace": 10,
   "placement": "CENTER",
@@ -48,11 +40,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 12,
-  "text": "New AB Test Variant for Campaign",
-  "topRow": 52,
+  "rightColumn": 64,
+  "text": "Refresh",
+  "topRow": 38,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "aw7j8o93j5",
-  "widgetName": "ButtonCampainNewVariant"
+  "widgetId": "rj2a6ikd32",
+  "widgetName": "ButtonCampaignRefresh"
 }

@@ -31,6 +31,9 @@ export default {
 			showAlert(required.join(',') + ' are must-have columns. Some are missing', 'error');
 		} else {
 			storeValue("import_columns_is_good", true);
+			storeValue("TestSQL", InputSQL.text);
+			storeValue("InputExtractPrompt", InputExtractPrompt.text);
+			imports_preview.run();
 		}
 	}
 }

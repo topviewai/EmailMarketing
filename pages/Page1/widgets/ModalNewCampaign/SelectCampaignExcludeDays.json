@@ -50,7 +50,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 56,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"3天\",\n    \"code\": \"3\"\n  },\n  {\n    \"name\": \"1周\",\n    \"code\": \"7\"\n  },\n  {\n    \"name\": \"2周\",\n    \"code\": \"14\"\n  },\n  {\n    \"name\": \"1个月\",\n    \"code\": \"30\"\n  },\n  {\n    \"name\": \"3个月\",\n    \"code\": \"91\"\n  },\n  {\n    \"name\": \"半年\",\n    \"code\": \"182\"\n  },\n  {\n    \"name\": \"0天\",\n    \"code\": \"0\"\n  }\n]",
+  "sourceData": "[\n  {\n    \"name\": \"3天\",\n    \"code\": \"3\"\n  },\n  {\n    \"name\": \"1周\",\n    \"code\": \"7\"\n  },\n  {\n    \"name\": \"2周\",\n    \"code\": \"14\"\n  },\n  {\n    \"name\": \"1个月\",\n    \"code\": \"30\"\n  },\n  {\n    \"name\": \"3个月\",\n    \"code\": \"91\"\n  },\n  {\n    \"name\": \"半年\",\n    \"code\": \"182\"\n  }\n]",
   "topRow": 19,
   "type": "SELECT_WIDGET",
   "version": 1,
