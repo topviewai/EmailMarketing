@@ -22,7 +22,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -43,6 +47,7 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 82,
   "needsErrorInfo": false,
+  "onOptionChange": "{{Template.testTemplate();}}",
   "optionLabel": "name",
   "optionValue": "code",
   "parentColumnSpace": 29.7724609375,

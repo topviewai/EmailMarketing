@@ -226,6 +226,9 @@ export default {
 		storeValue("RichTextEditorTemplateResult", email_content);
 
 	},
+	sendTestMail() {
+		
+	},
 	async uploadImage() {
 		// 1. 校验是否选择了文件
 		if (!FilePickerImage.files || FilePickerImage.files.length === 0) {
