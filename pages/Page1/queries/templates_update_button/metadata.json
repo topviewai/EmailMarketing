@@ -26,7 +26,7 @@
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/api/templates/{{TableTemplates.selectedRow.template_id}}",
+      "path": "/api/templates/{{appsmith.store.loaded_template_id}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true

@@ -41,7 +41,7 @@
     "updated_by",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1764141722059,
+  "columnUpdatedAt": 1764318929660,
   "columnWidthMap": {
     "name": 295,
     "subject": 506
@@ -102,6 +102,9 @@
     },
     {
       "key": "primaryColumns.updated_by.computedValue"
+    },
+    {
+      "key": "totalRecordsCount"
     }
   ],
   "dynamicPropertyPathList": [
@@ -206,7 +209,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "created_at",
       "notation": "standard",
       "originalId": "created_at",
@@ -237,7 +240,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "created_by",
       "notation": "standard",
       "originalId": "created_by",
@@ -408,11 +411,12 @@
   "responsiveBehavior": "fill",
   "rightColumn": 54,
   "searchKey": "",
+  "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
-  "tableData": "{{templates.data}}",
+  "tableData": "{{templates.data.items}}",
   "textSize": "0.875rem",
   "topRow": 0,
-  "totalRecordsCount": 0,
+  "totalRecordsCount": "{{templates.data.total}}",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",

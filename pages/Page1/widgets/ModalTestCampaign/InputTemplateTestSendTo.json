@@ -1,62 +1,54 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
+  "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 11,
+  "bottomRow": 18,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "sourceData"
-    }
-  ],
   "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "TEXT",
   "isDisabled": false,
-  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "5shrw5pvtp",
+  "key": "77cz8pt6re",
+  "label": "Send to",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Select a profile",
+  "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 21,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 89,
-  "mobileLeftColumn": 15,
-  "mobileRightColumn": 35,
-  "mobileTopRow": 82,
+  "mobileBottomRow": 199,
+  "mobileLeftColumn": 36,
+  "mobileRightColumn": 56,
+  "mobileTopRow": 192,
   "needsErrorInfo": false,
-  "optionLabel": "name",
-  "optionValue": "code",
   "parentColumnSpace": 29.7724609375,
   "parentId": "w6u3delj95",
   "parentRowSpace": 10,
-  "placeholderText": "Select option",
   "renderMode": "CANVAS",
+  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 43,
-  "serverSideFiltering": false,
-  "sourceData": "{{lists_sample.data.map(\n\titem => (\n\t\t{\n\t\t\tname: item.email,\n\t\t\tcode: item.list_profile_id\n\t\t}\n\t)\n)}}",
-  "topRow": 4,
-  "type": "SELECT_WIDGET",
-  "version": 1,
-  "widgetId": "trkv84p0x4",
-  "widgetName": "SelectTemplateTestEmail"
+  "showStepArrows": false,
+  "topRow": 11,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "khcdoi9vhd",
+  "widgetName": "InputTemplateTestSendTo"
 }

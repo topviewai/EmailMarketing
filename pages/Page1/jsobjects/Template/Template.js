@@ -275,6 +275,7 @@ export default {
 	async createTemplate() {
 		const resp = await templates_create.run();
 		await templates.run();
+		storeValue("loaded_template_id", null);
 	},
 	async cloneTemplate() {
 		const selectedTemplate = await templates_load.run();
@@ -291,6 +292,9 @@ export default {
 		InputTemplateSubject.setValue(selectedTemplate.subject);
 		storeValue("RichTextEditorTemplate", selectedTemplate.content);
 		storeValue("TemplateChanged", false);
+		storeValue("loaded_template_id", selectedTemplate.template_id);
+		storeValue("loaded_template_name", selectedTemplate.name);
+
 	},
 	async tableSaveTemplate() {
 
