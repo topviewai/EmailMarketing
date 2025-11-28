@@ -55,7 +55,7 @@
     "clicked_count",
     "clicked_rate"
   ],
-  "columnUpdatedAt": 1764140620635,
+  "columnUpdatedAt": 1764320130620,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -143,6 +143,9 @@
     },
     {
       "key": "primaryColumns.clicked_rate.computedValue"
+    },
+    {
+      "key": "totalRecordsCount"
     }
   ],
   "dynamicPropertyPathList": [
@@ -300,7 +303,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "created_at",
       "notation": "standard",
       "originalId": "created_at",
@@ -334,7 +337,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "created_by",
       "notation": "standard",
       "originalId": "created_by",
@@ -844,7 +847,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "status",
       "notation": "standard",
       "originalId": "status",
@@ -929,10 +932,11 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": true,
   "tableData": "{{campaigns.data}}",
   "textSize": "0.875rem",
   "topRow": 0,
-  "totalRecordsCount": 0,
+  "totalRecordsCount": "{{campaigns.data.length}}",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
