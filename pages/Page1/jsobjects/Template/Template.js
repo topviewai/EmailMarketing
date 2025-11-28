@@ -151,7 +151,7 @@ export default {
 	},	
 	/**
 	 * 填充模版函数
-	 * @param {string} template - 包含 {{key}} 或 {{key || "default"}} 的模版字符串
+	 * @param {string} template - 包含 {{key}} 或 {{key | "default"}} 的模版字符串
 	 * @param {object} data - 包含键值对的 JSON 对象
 	 * @returns {string} - 填充后的字符串
 	 */
@@ -160,7 +160,7 @@ export default {
 		return template.replace(/\{\{\s*(.*?)\s*\}\}/g, (match, content) => {
 			// 1. 处理默认值逻辑：按 '||' 分割
 			// content 可能是 "greeting_first_name" 或 "greeting_personalized_line || 'default value'"
-			const parts = content.split('||');
+			const parts = content.split('|');
 
 			// 获取 key (取出第一部分并去除首尾空格)
 			const key = parts[0].trim();
@@ -225,9 +225,6 @@ export default {
 		InputTemplateTestSubject.setValue(subject);
 		storeValue("RichTextEditorTemplateResult", email_content);
 
-	},
-	sendTestMail() {
-		
 	},
 	async uploadImage() {
 		// 1. 校验是否选择了文件
