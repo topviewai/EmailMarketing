@@ -56,7 +56,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "serverSideFiltering": false,
-  "sourceData": "{{templates.data.items.map(item =>\n\t({name: item.name, \n\tcode: item.template_id})\n)}}",
+  "sourceData": "{{templates.data.map(item =>\n\t({name: item.name, \n\tcode: item.template_id})\n)}}",
   "topRow": 20,
   "type": "SELECT_WIDGET",
   "version": 1,

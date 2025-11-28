@@ -52,7 +52,7 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 43,
-  "text": "Save{{appsmith.store.loaded_template_name ? appsmith.store.loaded_template_name : ''}}",
+  "text": "Save {{appsmith.store.loaded_template_name ? appsmith.store.loaded_template_name : ''}}",
   "topRow": 48,
   "type": "BUTTON_WIDGET",
   "version": 1,

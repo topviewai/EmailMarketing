@@ -304,6 +304,7 @@ export default {
 	async saveTemplate() {
 		await templates_update_button.run();
 		await templates.run();
+		storeValue("TemplateChanged", false);
 	},
 	templateChanged() {
 		storeValue("TemplateChanged", true);

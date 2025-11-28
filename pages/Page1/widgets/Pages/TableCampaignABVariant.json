@@ -134,9 +134,6 @@
     },
     {
       "key": "primaryColumns.clicked_rate.computedValue"
-    },
-    {
-      "key": "totalRecordsCount"
     }
   ],
   "dynamicPropertyPathList": [
@@ -788,11 +785,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "serverSidePaginationEnabled": true,
   "tableData": "{{campaign_variants.data}}",
   "textSize": "0.875rem",
   "topRow": 55,
-  "totalRecordsCount": "{{campaign_variants.data.length}}",
+  "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
