@@ -179,7 +179,7 @@
   "mobileRightColumn": 34,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "onRowSelected": "",
+  "onRowSelected": "{{Campaign.load_campaign_variants();}}",
   "parentColumnSpace": 30.25,
   "parentId": "40zxp835et",
   "parentRowSpace": 10,
