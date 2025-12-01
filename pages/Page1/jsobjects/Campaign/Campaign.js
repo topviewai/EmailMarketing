@@ -88,6 +88,10 @@ export default {
 			console.error("test_email", e)
 			showAlert('出错，请稍后重试。', 'error');
 		}		
+	},
+	async cancel_schedule_confirmed() {
+		await campaigns_cancel_schedule.run();
+		closeModal(ModalCancelSchedule.name);
 	}
 
 
