@@ -92,6 +92,11 @@ export default {
 	async cancel_schedule_confirmed() {
 		await campaigns_cancel_schedule.run();
 		closeModal(ModalCancelSchedule.name);
+	},
+	async load_campaign_variants() {
+		if (TableCampaigns.selectedRow.campaign_id) {
+			await campaign_variants.run();
+		}
 	}
 
 
