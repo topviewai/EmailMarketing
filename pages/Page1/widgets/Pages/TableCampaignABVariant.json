@@ -52,8 +52,10 @@
     "clicked_count",
     "clicked_rate"
   ],
-  "columnUpdatedAt": 1764235378956,
+  "columnUpdatedAt": 1764675529781,
   "columnWidthMap": {
+    "clicked_count": 124,
+    "clicked_rate": 159.4375,
     "email_template_id": 262,
     "template_name": 193
   },
@@ -272,7 +274,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "number",
-      "computedValue": "{{(() => { const tableData = TableCampaignABVariant.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"clicked_rate\"])) : clicked_rate })()}}",
+      "computedValue": "{{(() => { const tableData = TableCampaignABVariant.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ((currentRow[\"clicked_rate\"] * 100).toFixed(2) + '%')) : (currentRow[\"clicked_rate\"] * 100).toFixed(2) + '%' })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -418,7 +420,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "opened_count",
       "notation": "standard",
       "originalId": "opened_count",
@@ -452,7 +454,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "opened_rate",
       "notation": "standard",
       "originalId": "opened_rate",
