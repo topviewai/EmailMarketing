@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 88,
+  "bottomRow": 63,
   "boxShadow": "none",
   "defaultText": "{{`select user_id\n, max_by(email, gmt_create) email \n, max_by(nickname, gmt_create) name \n, max_by(country, gmt_create) country \n, max_by(subs_type, gmt_create) subs_type\n, max_by(region, gmt_create) region\n, max_by(city, gmt_create) city   \n, max_by(product_link, gmt_create) product_link   \n, max_by(product_description, gmt_create) product_description   \n, max_by(product_name, gmt_create) product_name   \n, max(gmt_create) gmt_create\nfrom marketing.link_scraper_user\nwhere length(product_images) >= 20\ngroup by user_id limit 100`}}",
   "dynamicBindingPathList": [
@@ -41,7 +41,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "originalBottomRow": 88,
+  "originalBottomRow": 63,
   "originalTopRow": 53,
   "parentColumnSpace": 30.25,
   "parentId": "d4nph2f8z7",

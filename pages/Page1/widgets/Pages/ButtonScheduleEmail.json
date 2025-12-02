@@ -28,7 +28,7 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{TableCampaigns.selectedRow.status !== 'draft' && TableCampaigns.selectedRow.status !== 'scheduling'}}",
+  "isDisabled": "{{(TableCampaigns.selectedRow.status !== 'draft' && TableCampaigns.selectedRow.status !== 'scheduling') || TableCampaigns.selectedRow.variant_count == 0}}",
   "isLoading": false,
   "isVisible": true,
   "key": "vnr7zwakj7",
