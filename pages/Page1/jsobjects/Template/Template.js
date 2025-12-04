@@ -276,10 +276,12 @@ export default {
 		const resp = await templates_create.run();
 		await templates.run();
 		storeValue("loaded_template_id", null);
+		closeModal(ModalTemplateSaveAs.name);
 	},
 	async cloneTemplate() {
 		const selectedTemplate = await templates_load.run();
 		await templates.run();
+		closeModal(ModalTemplateClone.name);
 	},	
 	async deleteTemplateConfirmed() {
 		const resp = await templates_delete.run();
@@ -308,5 +310,8 @@ export default {
 	},
 	templateChanged() {
 		storeValue("TemplateChanged", true);
+	},
+	sendTestMail() {
+
 	}
 }

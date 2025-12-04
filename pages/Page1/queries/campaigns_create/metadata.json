@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\tname: {{InputNewCompaignName.text}},\n\tlist_id: {{SelectNewCompaignUserList.selectedOptionValue}},\n\texclude_recent_days: {{SelectCampaignExcludeDays.selectedOptionValue}},\n\treply_to: {{InputReplyTo.text}},\n\tsender_name: {{InputNewCampaignSenderName.text}}\n}",
+      "body": "{\n\tname: {{InputNewCompaignName.text}},\n\tlist_id: {{SelectNewCompaignUserList.selectedOptionValue}},\n\texclude_recent_days: {{SelectCampaignExcludeDays.selectedOptionValue}},\n\treply_to: {{InputNewCampainReplyTo.text}},\n\treply_to_name: {{InputNewCampaignReplyToName.text}},\n\tsender_name: {{InputNewCampaignSenderName.text}},\n\tsender_email: {{InputNewCampaignSender.text}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

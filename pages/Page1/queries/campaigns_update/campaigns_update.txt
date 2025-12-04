@@ -1,4 +1,6 @@
 {
 	reply_to: {{TableCampaigns.triggeredRow.reply_to}},
-	sender_name: {{TableCampaigns.triggeredRow.sender_name}}
+	reply_to_name: {{TableCampaigns.triggeredRow.reply_to_name}},
+	sender_name: {{TableCampaigns.triggeredRow.sender_name}},
+	sender_email: {{TableCampaigns.triggeredRow.sender_email}}
 }

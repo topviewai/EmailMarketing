@@ -2,6 +2,8 @@
 	name: {{InputNewCompaignName.text}},
 	list_id: {{SelectNewCompaignUserList.selectedOptionValue}},
 	exclude_recent_days: {{SelectCampaignExcludeDays.selectedOptionValue}},
-	reply_to: {{InputReplyTo.text}},
-	sender_name: {{InputNewCampaignSenderName.text}}
+	reply_to: {{InputNewCampainReplyTo.text}},
+	reply_to_name: {{InputNewCampaignReplyToName.text}},
+	sender_name: {{InputNewCampaignSenderName.text}},
+	sender_email: {{InputNewCampaignSender.text}}
 }

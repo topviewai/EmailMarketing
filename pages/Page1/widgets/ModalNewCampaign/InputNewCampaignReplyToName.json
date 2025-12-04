@@ -3,64 +3,55 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 18,
+  "bottomRow": 45,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "{{appsmith.user.name}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "onTextChanged"
-    }
-  ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onTextChanged"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
-  "key": "sb52t0h2p5",
-  "label": "EMail Subject\n",
+  "key": "qg5ft2eriy",
+  "label": "Reply To Name",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 0,
-  "maxChars": "",
+  "leftColumn": 34,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 11,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 21,
-  "mobileTopRow": 4,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 34,
+  "mobileRightColumn": 54,
+  "mobileTopRow": 30,
   "needsErrorInfo": false,
-  "onTextChanged": "{{{}}}",
-  "parentColumnSpace": 29.7724609375,
-  "parentId": "w6u3delj95",
+  "parentColumnSpace": 6.6875,
+  "parentId": "zjte2208w3",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 32,
-  "shouldAllowAutofill": false,
+  "rightColumn": 63,
   "showStepArrows": false,
-  "topRow": 11,
+  "topRow": 38,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "pm22zqmv8v",
-  "widgetName": "InputTemplateTestSubject"
+  "widgetId": "ppu40kfkmw",
+  "widgetName": "InputNewCampaignReplyToName"
 }

@@ -1,11 +1,11 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 49,
+  "bottomRow": 22,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonStyle": "PRIMARY",
-  "buttonVariant": "SECONDARY",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
@@ -15,37 +15,29 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "7mk2mw7g16",
-  "leftColumn": 26,
+  "key": "lel2zas7hk",
+  "leftColumn": 47,
   "minWidth": 120,
   "mobileBottomRow": 22,
-  "mobileLeftColumn": 31,
-  "mobileRightColumn": 47,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(ModalNewCampaign.name);}}",
-  "originalBottomRow": 35,
-  "originalTopRow": 31,
-  "parentId": "zjte2208w3",
+  "parentId": "bpzuhh9uny",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 42,
-  "text": "Close",
-  "topRow": 45,
+  "rightColumn": 63,
+  "text": "Confirm",
+  "topRow": 18,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "ihw0l0np2p",
-  "widgetName": "Button24"
+  "widgetId": "gis80zx0g6",
+  "widgetName": "Button36"
 }

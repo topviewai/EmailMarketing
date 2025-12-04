@@ -15,52 +15,41 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "onTextChanged"
-    }
-  ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onTextChanged"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "iconAlign": "left",
-  "inputType": "TEXT",
+  "inputType": "EMAIL",
   "isDisabled": false,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "sb52t0h2p5",
-  "label": "EMail Subject\n",
+  "key": "bohiuz9uuj",
+  "label": "Test Recipient",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 0,
-  "maxChars": "",
+  "leftColumn": 43,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 11,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 21,
-  "mobileTopRow": 4,
+  "mobileBottomRow": 18,
+  "mobileLeftColumn": 43,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 11,
   "needsErrorInfo": false,
-  "onTextChanged": "{{{}}}",
-  "parentColumnSpace": 29.7724609375,
+  "parentColumnSpace": 18.78125,
   "parentId": "w6u3delj95",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 32,
-  "shouldAllowAutofill": false,
+  "rightColumn": 63,
+  "shouldAllowAutofill": true,
   "showStepArrows": false,
   "topRow": 11,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "pm22zqmv8v",
-  "widgetName": "InputTemplateTestSubject"
+  "widgetId": "1nzuyeqatk",
+  "widgetName": "InputTestRecipient"
 }
