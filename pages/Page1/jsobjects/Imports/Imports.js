@@ -24,16 +24,14 @@ export default {
 		//	await storeValue('varName', 'hello world')
 	},
 	async preview() {
+		storeValue("import_columns_is_good", true);
+		storeValue("TestSQL", InputSQL.text);
+		storeValue("InputExtractPrompt", InputExtractPrompt.text);
 		const resp = await imports_preview.run();
 		const required  = ['name', 'email', 'country', 'region', 'city'];
 		const isAllPresent = required.every(item => resp.columns.includes(item));
 		if(!isAllPresent) {
 			showAlert(required.join(',') + ' are must-have columns. Some are missing', 'error');
-		} else {
-			storeValue("import_columns_is_good", true);
-			storeValue("TestSQL", InputSQL.text);
-			storeValue("InputExtractPrompt", InputExtractPrompt.text);
-			imports_preview.run();
 		}
 	}
 }
