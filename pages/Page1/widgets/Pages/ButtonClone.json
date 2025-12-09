@@ -39,7 +39,7 @@
   "mobileRightColumn": 52,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(ModalTemplateSaveAs.name);}}",
+  "onClick": "{{showModal(ModalTemplateClone.name);}}",
   "parentColumnSpace": 29.7724609375,
   "parentId": "h5q7ccqfth",
   "parentRowSpace": 10,

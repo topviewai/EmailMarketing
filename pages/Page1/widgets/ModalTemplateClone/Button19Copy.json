@@ -32,7 +32,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{Template.createTemplate();}}",
+  "onClick": "{{Template.cloneTemplate();}}",
   "parentId": "z63gg3sh86",
   "placement": "CENTER",
   "recaptchaType": "V3",

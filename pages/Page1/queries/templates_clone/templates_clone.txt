@@ -1,0 +1,5 @@
+{
+	name: {{appsmith.store.clone_template.name}},
+	subject: {{appsmith.store.clone_template.subject}},
+	content: {{appsmith.store.clone_template.content}}
+}

@@ -279,9 +279,14 @@ export default {
 		closeModal(ModalTemplateSaveAs.name);
 	},
 	async cloneTemplate() {
-		const selectedTemplate = await templates_load.run();
-		await templates.run();
+		let new_template = await templates_load.run();
+		new_template.name = InputTemplateCloneName.text;
+
+		storeValue("clone_template", new_template);
+		await templates_clone.run();
+
 		closeModal(ModalTemplateClone.name);
+		await templates.run();
 	},	
 	async deleteTemplateConfirmed() {
 		const resp = await templates_delete.run();
