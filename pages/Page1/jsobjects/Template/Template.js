@@ -287,6 +287,10 @@ export default {
 
 		closeModal(ModalTemplateClone.name);
 		await templates.run();
+
+		if(!appsmith.store.TemplateChanged) {
+			await Template.loadTemplate();
+		}
 	},	
 	async deleteTemplateConfirmed() {
 		const resp = await templates_delete.run();
