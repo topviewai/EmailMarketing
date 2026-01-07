@@ -1,6 +1,6 @@
 {
 	name: {{InputUserListNewName.text}},
 	sql_query: {{InputSQL.text}},
-	extract_prompt: {{InputExtractPrompt.text}},
+	extract_prompt: {{SwitchAIExtract.isSwitchedOn ? InputExtractPrompt.text : null}},
 	model: "models/gemini-flash-latest"
 }

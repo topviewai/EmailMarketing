@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\tname: {{InputUserListNewName.text}},\n\tsql_query: {{InputSQL.text}},\n\textract_prompt: {{InputExtractPrompt.text}},\n\tmodel: \"models/gemini-flash-latest\"\n}",
+      "body": "{\n\tname: {{InputUserListNewName.text}},\n\tsql_query: {{InputSQL.text}},\n\textract_prompt: {{SwitchAIExtract.isSwitchedOn ? InputExtractPrompt.text : null}},\n\tmodel: \"models/gemini-flash-latest\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
