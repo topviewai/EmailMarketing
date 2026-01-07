@@ -26,7 +26,7 @@ export default {
 	async preview() {
 		storeValue("import_columns_is_good", true);
 		storeValue("TestSQL", InputSQL.text);
-		storeValue("InputExtractPrompt", InputExtractPrompt.text);
+		storeValue("InputExtractPrompt", SwitchAIExtract.isSwitchedOn ? InputExtractPrompt.text : null);
 		const resp = await imports_preview.run();
 		const required  = ['name', 'email', 'country', 'region', 'city'];
 		const isAllPresent = required.every(item => resp.columns.includes(item));
